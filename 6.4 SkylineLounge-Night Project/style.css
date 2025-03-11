@@ -1,0 +1,93 @@
+img{
+   height: 200px;
+    width: 300px;
+    margin-bottom:-25px;
+}
+@font-face {
+    font-family: 'Milker';
+    src: url('fonts/Milker.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1[id =head] {
+    font-family: 'Milker', sans-serif; 
+    font-size: 56px;
+    margin-bottom:-20px ;
+    
+    width: 300px;
+}
+
+div[id=first-box]{
+
+    background-color: black;
+    font-family: 'Milker', sans-serif;
+    width: 300px;
+    height: 56px;
+    font-size: 20px;
+    text-align: center;
+    
+    color: rgb(182, 22, 22);
+ 
+   
+}
+div[id= second-box]{
+    
+    font-family: 'Milker', sans-serif;
+    font-size: 12px;
+    background-color: black;
+    color:rgb(182, 22, 22);
+    width: 300px ;
+    height: 56px;
+    margin-top: -20px;
+    
+    h4[id=second1]{
+        
+        text-align: center;
+        margin-bottom: -10px;
+        padding-top: 10px;
+    }
+
+    h4[id=second2]{
+    
+        text-align: center;
+    }   
+}
+h4[ id=skyline]{
+    font-family: 'Milker', sans-serif;
+    width: 294px;
+    text-align: center;
+    border: solid black;
+}
+div[id=background]{
+ padding-right: 500px;
+ padding-left: 500px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+   
+}
+p[id= bottomleft]{
+    font-family: roboto, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+p[id= bottomright]{
+    font-family: roboto, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+html{
+    background-color: rgb(182, 22, 22);
+
+}
+
+
+
+
+
+
